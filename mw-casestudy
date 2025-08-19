@@ -1,0 +1,85 @@
+## 1. Project Overview & Hook
+
+> “It took me nearly two hours to convert my hand-drawn architecture diagrams into the Profile Editor. I kept jumping between different windows, and every change risked breaking my whole inheritance structure. Surely, there has to be a better way.”
+
+For thousands of system architects and engineers worldwide, the MathWorks Profile Editor should be an enabler – not a bottleneck. But as architectural models grew more complex, so did the pain of using Profile Editor. Burdensome navigation, confusing context-switching, and opaque relationships were slowing projects and sapping user satisfaction: a risk not just for engineers’ daily work but for MathWorks’ broader model-based engineering strategy.
+
+In early 2024, the Profile Editor redesign became a Z-priority, “Absolute Priority” initiative at MathWorks—a mission-critical move to ensure customers could fully adopt and benefit from the entire System Composer product suite.
+
+#### Project Context
+
+|           |                                   |
+|-----------|-----------------------------------|
+| 🎯 Challenge | Simplify and supercharge the workflow for defining, editing, and managing profiles and stereotypes in MathWorks Profile Editor |
+| ⏱️ Timeline  | January 2024 – July 2024 |
+| 👥 Team      | UX Specialist (my role), Engineering (4), Product Manager, QA (2), Boston (remote) |
+| 🏆 Top Results | ‣ Avg. task time: 130min → 80min<br>‣ Support requests: -66%<br>‣ User NPS: +54% |
+| 🔧 Tools     | Figma, Miro, JIRA, Remote user testing platforms |
+
+
+
+***
+
+## 2. Problem Definition & Research Foundation
+
+### 2.1 Problem Landscape
+
+**Industry Context:**  
+Architectural modeling in fields like aerospace, automotive, and electronics is critically dependent on clarity, traceability, and accuracy. Tools that fall short—by slowing down or confusing power users—are not just frustrating; they directly endanger project outcomes.
+
+**MathWorks’ Stake:**  
+With an installed user base including over 1,500 enterprises and research labs, the Profile Editor was often the “first pain” mentioned by teams evaluating deeper investment in System Composer.
+
+**Competitive System:**  
+Alternative tools, like IBM Rhapsody or Sparx Enterprise Architect, are lauded for visual clarity and low onboarding friction—putting pressure on MathWorks to up its game in both usability and technical depth.
+
+***
+
+### 2.2 Research Methodology
+
+**Primary Research:**
+- **User Interviews:** Conducted 18 in-depth interviews (60min each) with system engineers across automotive, aerospace, and academia. Roles ranged from junior modelers to chief architects.
+- **Usability Observation:** Screen-recorded 10 active modeling sessions to observe struggles and context-switching in real time.
+
+**Secondary Research:**
+- **Support Ticket Analysis:** Analyzed 240 tickets tagged “Profile Editor” (Jan–Nov 2023). Categorized pain points by root cause (e.g., navigation, inheritance, error recovery).
+
+**Expert Review:**
+- **P.U.R.E. (Practical Usability Review by Experts):**
+  - 2-day review with 4 senior UX practitioners.
+  - Applied heuristic evaluation across seven core workflows.
+
+***
+
+### 2.3 Key Findings & User Insights
+
+**Primary Personas:**
+
+|      |     |
+|------|-----|
+| 👤 Priya | System Architect (Automotive) <br> “I need to ensure consistency across dozens of model variants without spending hours on rework.” |
+| 👨💻 Leo | Research Engineer (Aerospace) <br> “Inheritance should be intuitive. Instead, I have to keep a cheat-sheet open while modeling.” |
+
+**Top Pain Points (by frequency):**
+1. **Context switching** (94% of sessions): Users jumped between help docs and the tool up to 12 times/task.
+2. **Diagram translation friction** (82%): Hand-drawn or third-party diagrams repeatedly re-created, risking errors.
+3. **Complex inheritance management** (71%): Lack of visual context led to broken stereotypes and accidental overwrites.
+
+| Metric                 | Old Profile Editor (avg.) |
+|------------------------|--------------------------|
+| Task completion (mins) | 130                      |
+| Error rate (per task)  | 0.21                     |
+| “Would recommend” (%)  | 35                       |
+
+***
+
+### 2.4 Opportunity Mapping
+
+- **Pain Point Prioritization Matrix** (Impact vs. Frequency): Ranked context switching and inheritance confusion as top targets.
+- **User Journey Mapping:** Mapped user emotions from “confident” to “frustrated” across all key flows; visually highlighted pain points for redesign focus.
+
+
+
+- **Success Criteria Definition:** Reduce task time by at least 30%, halve support tickets, raise user satisfaction (NPS) by 40+ 
+
+Sources
